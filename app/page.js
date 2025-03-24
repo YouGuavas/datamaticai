@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
 	return (
@@ -6,11 +7,20 @@ export default function Home() {
 			<header className="text-center py-12">
 				<h1 className="text-5xl font-bold tracking-tight">DatamaticAI</h1>
 				<p className="text-lg mt-4 text-gray-400 max-w-xl mx-auto">
-					This domain is for sale. $1000 to buy now, open to crypto/negotiations
-					at:{' '}
-					<a href="mailto:pat@patripples.com" className="text-white underline">
+					This domain is for sale. $1000 to{' '}
+					<Link
+						href="https://www.afternic.com/domain/datamaticai.com"
+						className="underline"
+					>
+						Buy Now
+					</Link>
+					, open to crypto/negotiations at:{' '}
+					<Link
+						href="mailto:pat@patripples.com"
+						className="text-white underline"
+					>
 						pat@patripples.com
-					</a>
+					</Link>
 				</p>
 				<p className="text-lg mt-4 text-gray-400 max-w-xl mx-auto">
 					Where data meets imagination. Explore, predict, and create with the

@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata = {
 	title: 'DatamaticAI',
 	description:
-		'Explore, predict, and create with the power of AI-driven insights.',
+		'Driven by data? Explore, predict, and create with the power of AI-driven insights with DatamaticAI.',
 };
 
 export default function RootLayout({ children }) {
